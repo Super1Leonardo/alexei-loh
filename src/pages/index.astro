@@ -1,0 +1,39 @@
+---
+// Component Imports
+import Counter from '../components/Counter.svelte';
+import Card from '../components/Card.svelte';
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/basics/astro-components/
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<style>
+			html,
+			body {
+				font-family: system-ui;
+				margin: 0;
+			}
+			body {
+				padding: 2rem;
+			}
+		</style>
+	</head>
+	<body>
+		<div class=" h-[50dvh] w-full ">
+			<h1 class="font-sans font-medium text-3xl mt-16">Кванториум.Проекты</h1>
+			<div class="text-neutral-500 mb-16">тестовый сайт</div>
+			<div class=" grid gap-3 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+			<Card  title='База проектов' theme='IT' url='https://kvantorium.pockethost.io/api/files/szsdg1yxhgoaofe/xn69ykgblmy9qku/blob_scene_haikei_4_JLd1ChTUAG.png?thumb=640x360' />
+			<Card  title='Бот для рыссылки' theme='IT' url='https://kvantorium.pockethost.io/api/files/szsdg1yxhgoaofe/xn69ykgblmy9qku/blob_scene_haikei_4_JLd1ChTUAG.png?thumb=640x360' />
+			<Card  title='Тетрис' theme='IT' url='https://kvantorium.pockethost.io/api/files/szsdg1yxhgoaofe/xn69ykgblmy9qku/blob_scene_haikei_4_JLd1ChTUAG.png?thumb=640x360' />
+			<Card  title='Лев играл в тетрис' theme='IT' url='https://kvantorium.pockethost.io/api/files/szsdg1yxhgoaofe/xn69ykgblmy9qku/blob_scene_haikei_4_JLd1ChTUAG.png?thumb=640x360' />
+			</div>
+		</div>
+	</body>
+</html>
