@@ -4,14 +4,14 @@
     export let url: string
 </script>
 
-<a href={`/project`} class=" border-gray-100 border-2 shadow-xl rounded-[36px] ">
+<a href={`/project`} class=" border-gray-100 border-2 shadow-xl rounded-lg ">
     <img
       alt={'project.title'}
       style=''
       src="{url}"
       width={360}
       height={240}
-      class="rounded-[34px]  "
+      class="rounded-lg  "
     />
     <div class="px-6 pb-2 ">
       <div class=" font-sans">{title}</div>
