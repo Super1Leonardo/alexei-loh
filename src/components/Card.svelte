@@ -9,7 +9,7 @@
     }
 </script>
 
-<a href={`/project`} class=" border-gray-100 border-2 w-[20rem] h-[18rem] shadow-sm rounded-lg ">
+<a href={`/project`} class=" border-gray-100 hover:bg-gray-100 ease-in-out transition-all duration-150 border-2 w-[20rem] h-[18rem] shadow-sm rounded-lg ">
     <img
       alt={'project.title'}
       style=''
